@@ -1,0 +1,7 @@
+body { font-family: system-ui, Arial, sans-serif; max-width: 720px; margin: 0 auto; padding: 24px; }
+header { display: flex; align-items: center; gap: 12px; }
+.logo { height: 40px; }
+nav a { margin-right: 8px; }
+form { display: grid; gap: 12px; margin-top: 16px; }
+input, textarea { width: 100%; padding: 8px; }
+button { padding: 8px 14px; cursor: pointer; }

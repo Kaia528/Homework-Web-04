@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <title>Message</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <a href="/"><img src="/static/logo.png" alt="Logo" class="logo"></a>
+  <h1>Надішли повідомлення</h1>
+</header>
+
+<main>
+  <form method="post" action="/message">
+    <label>Ім'я: <input name="username" required></label>
+    <label>Повідомлення: <textarea name="message" required></textarea></label>
+    <button type="submit">Відправити</button>
+  </form>
+</main>
+</body>
+</html>
